@@ -4,7 +4,7 @@ import os
 PACKAGE_DIR = os.path.dirname(__file__)
 
 SCRIPT_PATHS = [
-    [PACKAGE_DIR, 'scripts', 'zephyr_gdb.py']
+    [PACKAGE_DIR, 'scripts', 'zephyr_gdb.py'],
     [PACKAGE_DIR, 'scripts', 'threadx_gdb.py']
 ]
 
